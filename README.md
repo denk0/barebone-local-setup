@@ -1,1 +1,1 @@
-Desciption how to use
+Description how to use
