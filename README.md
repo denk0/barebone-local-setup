@@ -15,7 +15,7 @@
 <br>
 <h2>Structure</h2>
 <pre>
-<code>
+<code style="background-color: #000; color: #fff;">
 ├── setup.js
 ├── mysql
 │   └── docker container data
