@@ -14,8 +14,8 @@
 </ol>
 <br>
 <h2>Structure</h2>
-<pre>
-<code style="background-color: #000; color: #fff;">
+<pre style="background-color: #000; color: #fff;">
+<code>
 ├── setup.js
 ├── mysql
 │   └── docker container data
