@@ -1,3 +1,4 @@
+Beetroot projects barebone setup script.
 <h2>Requirements:</h2>
 <ul>
     <li>git 2.9.3+</li>
@@ -28,3 +29,17 @@
         └── *.* files
 </code>
 </pre>
+<br>
+<h2>Ports</h2>
+<p>Make sure you have these ports available on your machine.</p>
+<ul>
+    <li>mysql container - 3306 </li>
+    <li>phpmyadmin - http://localhost:8888 </li>
+    <li>wordpress sites - http://localhost:<8081-8887> (port will be autoincremented for every project. see terminal output after isntalling or check <code>docker ps -a</code>)</li>
+</ul>
+<br>
+<h2>Useful links</h2>
+<ul>
+    <li><a href="https://www.atlassian.com/git/tutorials" target="_blank">Git documentation</a></li>
+    <li><a href="https://docs.docker.com" target="_blank">Docker documentation</a></li>
+</ul>
