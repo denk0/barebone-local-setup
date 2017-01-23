@@ -10,13 +10,22 @@
     <li>Create folder for storing all projects.</li>
     <li>Place setup.js (or setup-windows.js) there.</li>
     <li>Place <a target="_blank" href="http://git.beetroot.se/vromanenko/project-local-setup/blob/master/install.js"></a> (or <a target="_blank" href="http://git.beetroot.se/vromanenko/project-local-setup/blob/master/install-windows.js"></a>) there.</li>
-    <li>Run <pre>node setup</pre> in your projects folder.</li>
+    <li>Run `node setup` in your projects folder.</li>
 </ol>
 <br>
 <h2>Structure</h2>
-<div>beetroot-projects <em>(main folder)</em><div>
-<div>-sites <em>(wordpress projects folder)</em><div>
-<div>--client_project <em>(single wordpress project folder)</em><div>
-<div>--install.js <em>(project install script)</em><div>
-<div>-mysql <em>(mysql data folder)</em><div>
-<div>-setup.js <em>(barebone setup script)</em><div>
+├── setup.js</em>
+├── mysql
+│   ├── application.php
+│   └── environments
+│       ├── development.php
+│       ├── staging.php
+│       └── production.php
+└── sites
+    ├── install.js
+    └── client_project
+        ├── wp-admin
+        ├── wp-content
+        ├── wp-includes
+        ├── wp-database
+        └── *.* files
