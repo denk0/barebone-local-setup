@@ -13,10 +13,9 @@
     <li>Run `node setup` in your projects folder.</li>
 </ol>
 <br>
-<h2>Structure</h2>
+<h2>Structure (after running setup script)</h2>
 <pre style="background-color: #000; color: #fff;">
-<code>
-├── setup.js
+<code>├── setup.js
 ├── mysql
 │   └── docker container data
 └── sites<br>
