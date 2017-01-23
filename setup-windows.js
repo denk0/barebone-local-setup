@@ -9,7 +9,7 @@ let directories = new Promise((resolve, reject) => {
 	const directoryNames = ['mysql', 'sites'];
 	directoryNames.forEach(name => createDirectory(name));
 
-	let creatingDirectories = fs.rename('install.js', 'sites/install.js', () => {
+	let creatingDirectories = fs.rename('install-windows.js', 'sites/install-windows.js', () => {
 		console.log('All set to run Docker containers.');
 		resolve();
 	});
