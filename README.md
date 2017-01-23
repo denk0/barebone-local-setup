@@ -14,18 +14,18 @@
 </ol>
 <br>
 <h2>Structure</h2>
-├── setup.js</em>
-├── mysql
-│   ├── application.php
-│   └── environments
-│       ├── development.php
-│       ├── staging.php
-│       └── production.php
-└── sites
-    ├── install.js
-    └── client_project
-        ├── wp-admin
-        ├── wp-content
-        ├── wp-includes
-        ├── wp-database
-        └── *.* files
+├── setup.js<br>
+├── mysql<br>
+│   ├── application.php<br>
+│   └── environments<br>
+│       ├── development.php<br>
+│       ├── staging.php<br>
+│       └── production.php<br>
+└── sites<br>
+    ├── install.js<br>
+    └── client_project<br>
+        ├── wp-admin<br>
+        ├── wp-content<br>
+        ├── wp-includes<br>
+        ├── wp-database<br>
+        └── *.* files<br>
