@@ -15,11 +15,11 @@
 <br>
 <h2>Structure (after running setup script)</h2>
 <pre style="background-color: #000; color: #fff;">
-<code>├── setup.js
+<code>├── setup.js (setup-windows.js)
 ├── mysql
 │   └── docker container data
 └── sites<br>
-    ├── install.js
+    ├── install.js (install-windows.js)
     └── client_project
         ├── wp-admin
         ├── wp-content
