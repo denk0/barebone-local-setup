@@ -5,6 +5,8 @@ Beetroot projects barebone setup script.
     <li>node.js 7.4.0+</li>
     <li>Docker 1.12.5+</li>
 </ul>
+<h2>Important for Windows:</h2>
+<p>Make sure to enable Hyper V in BIOS after installing Docker and share your C disk in shared folders Docker setting.</p>
 <br>
 <h2>Usage</h2>
 <ol>
