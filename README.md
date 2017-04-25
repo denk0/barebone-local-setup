@@ -11,7 +11,7 @@ Beetroot projects barebone setup script.
 <h2>Usage</h2>
 <ol>
     <li>Create folder for storing all projects.</li>
-    <li>Place setup.js (or setup-windows.js) there.</li>
+    <li>Place <a target="_blank" href="http://git.beetroot.se/vromanenko/barebone-local-setup/raw/master/setup.js">setup.js</a> (or setup-windows.js) there.</li>
     <li>Place <a target="_blank" href="http://git.beetroot.se/vromanenko/project-local-setup/blob/master/install.js">install.js</a> (or <a target="_blank" href="http://git.beetroot.se/vromanenko/project-local-setup/blob/master/install-windows.js">install-windows.js</a>) there.</li>
     <li>Run <code>node setup</code> (or <code>node setup-windows</code>) in your projects folder.</li>
 </ol>
