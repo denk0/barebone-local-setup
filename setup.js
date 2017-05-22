@@ -18,7 +18,7 @@ let directories = new Promise((resolve, reject) => {
 let dockerMysqlContainer = new Promise((resolve, reject) => {
 	directories.then(() => {
 		console.log('Run Mysql container...');
-		let dockerMysql = exec(`docker run --name mysql -v $PWD/mysql:/var/lib/mysql  -e MYSQL_ROOT_PASSWORD=root -d mysql:latest`);
+		let dockerMysql = exec(`docker run --name mysql -v $PWD/mysql:/var/lib/mysql  -e MYSQL_ROOT_PASSWORD=root -d mysql:latest --character-set-server=utf8 --collation-server=utf8_general_ci`);
 		dockerMysql.stderr.on('data', (data) => {
 			console.log(`${data}`);
 		});
