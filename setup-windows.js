@@ -22,8 +22,8 @@ let dockerMysqlContainer = new Promise((resolve, reject) => {
 		    var target = this;
 		    return target.split(search).join(replacement);
 		};
-		const PWD = __dirname.replace('C:', 'c').replaceAll('\\', '/');
-		let dockerMysql = exec(`docker run --name mysql -v /${PWD}/mysql:/var/lib/mysql  -e MYSQL_ROOT_PASSWORD=root -d mysql:latest`);
+		let PWD = __dirname;
+		let dockerMysql = exec(`docker run --name mysql -v ${PWD}\\mysql:/var/lib/mysql  -e MYSQL_ROOT_PASSWORD=root -d mysql:latest`);
 		dockerMysql.stderr.on('data', (data) => {
 			console.log(`${data}`);
 		});
